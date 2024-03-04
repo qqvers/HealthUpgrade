@@ -1,0 +1,151 @@
+.bmiCalculator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.bmiForm {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.bmiForm input[type="number"],
+.bmiForm button {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.bmiForm div {
+  margin: 10px 0;
+}
+
+.bmiForm label {
+  margin-right: 20px;
+}
+
+.bmiForm button {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.bmiForm button:hover {
+  background-color: #28692a;
+}
+
+.bmiCalculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.bmiResult {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #dff0d8;
+  color: #3c763d;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 1rem;
+  border: 3px solid #d6e9c6;
+  height: 10%;
+  font-size: 3em;
+}
+
+.bmi-indicator {
+  width: 20px;
+  height: 100px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+}
+
+.bmiForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bmi-text {
+  margin-top: 20px;
+}
+
+.bmiCalculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.bmiContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bmiForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bmiTable {
+  margin-left: 150px;
+  background-color: white;
+
+  margin-top: 80px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+.highlighted {
+  background-color: #add8e6;
+}
+
+.highlighted:nth-of-type(1) {
+  background-color: #ffc0cb;
+}
+.highlighted:nth-of-type(2) {
+  background-color: #ffb6c1;
+}
+.highlighted:nth-of-type(3) {
+  background-color: #ffa07a;
+}
+.highlighted:nth-of-type(4) {
+  background-color: #98fb98;
+}
+.highlighted:nth-of-type(5) {
+  background-color: #f0e68c;
+}
+.highlighted:nth-of-type(6) {
+  background-color: #ffd700;
+}
+.highlighted:nth-of-type(7) {
+  background-color: #ffa500;
+}
+.highlighted:nth-of-type(8) {
+  background-color: #ff4500;
+}

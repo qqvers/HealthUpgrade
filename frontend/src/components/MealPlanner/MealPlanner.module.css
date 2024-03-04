@@ -1,0 +1,133 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.column {
+  background-image: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 1%,
+    rgba(203, 235, 219, 1) 100%
+  );
+  padding: 8px;
+  margin: 8px;
+  border: 2px solid #4caf50;
+  border-radius: 8px;
+  min-height: 70vh;
+  max-height: 70vh;
+  overflow-y: auto;
+  width: 15%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item {
+  padding: 16px;
+  margin-bottom: 8px;
+  background-color: white;
+  border: 1px solid green;
+  border-radius: 4px;
+  white-space: pre-line;
+  text-align: left;
+}
+
+.addButton {
+  background-color: #28a745;
+  color: white;
+  padding: 8px 16px;
+  margin: 8px 0;
+  border: 1px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  transition: background-color 0.2s;
+  width: 10vw;
+}
+
+.addButton:hover {
+  background-color: #218838;
+}
+
+.trash {
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  padding: 10px;
+  width: 9vw;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+.form select,
+.form input,
+.form button {
+  margin-bottom: 8px;
+}
+
+.form input {
+  width: 85%;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+.form select,
+.form button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+.form button {
+  padding: 12px;
+  margin-top: 4px;
+  background-color: #4caf50;
+  color: white;
+  transition: background-color 0.2s;
+}
+
+.form button:hover {
+  background-color: #367c39;
+}
+
+.suggestions {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-top: none;
+  z-index: 1000;
+  max-height: 150px;
+  overflow-y: scroll;
+  width: 10%;
+  margin-top: 60px;
+}
+
+.suggestionItem {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+}
+
+.suggestionItem:hover {
+  background-color: #f7f7f7;
+}
+
+.dayContainer {
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+}
+
+.macrosSummary {
+  align-self: flex-end;
+  margin-top: 55vh;
+  line-height: 0.1;
+}

@@ -1,0 +1,28 @@
+.siteFooter {
+  background: linear-gradient(135deg, #2e7d32 0%, #005a31 100%);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  height: 5vh;
+  margin-top: 10vh;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.footerContact,
+.footerItems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerContact p,
+.footerItems div {
+  margin: 0 10vw;
+  white-space: nowrap;
+}
